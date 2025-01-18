@@ -1,7 +1,15 @@
+
+import Footer from "./Components/Footer"
+import Header from "./Components/Header"
+import MainContent from "./Components/MainContent"
+
 function App (){
   return (
     <>
-    <h1>hello world</h1>
+    <Header/>
+    <MainContent/>
+    <Footer/>
+
     </>
   )
 }
