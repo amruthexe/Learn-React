@@ -1,21 +1,17 @@
+import List from "./Components/List";
+import ProductList from "./Components/ProductList";
+import UserList from "./Components/UserList";
 
-import Footer from "./Components/Footer"
-import Header from "./Components/Header"
-import MainContent from "./Components/MainContent"
-
-function App (){
+function App() {
   return (
     <>
-    <Header/>
-    <MainContent/>
-    <Footer/>
-
+    <h1>UserList</h1>
+      <UserList />
+      <ProductList/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
 
-
-
-//all ways we have to return 
+//all ways we have to return
