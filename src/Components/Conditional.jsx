@@ -2,7 +2,7 @@
 const Valid=()=> <h1>Valid password</h1>
 const Invalid=()=> <h1>Invalid password</h1>
 
-function App() {
+function Conditional() {
   return (
     <>
     <Password isValid={false}/>
@@ -12,7 +12,7 @@ function App() {
   );
 }
 
-export default App;
+export default Conditional;
 
 const Password=({isValid})=>{
   return isValid ?<Valid/>:<Invalid/>
