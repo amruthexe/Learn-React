@@ -1,11 +1,9 @@
-
-const Valid=()=> <h1>Valid password</h1>
-const Invalid=()=> <h1>Invalid password</h1>
+import Styling from "./Components/Styling";
 
 function App() {
   return (
     <>
-    <Password isValid={false}/>
+   <Styling/>
     
     </>
    
@@ -14,7 +12,3 @@ function App() {
 
 export default App;
 
-const Password=({isValid})=>{
-  return isValid ?<Valid/>:<Invalid/>
-
-}
